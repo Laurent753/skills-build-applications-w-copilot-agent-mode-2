@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/server.ts",
+    "seed": "ts-node src/scripts/seed.ts",
+    "start": "node dist/server.js"
+  },
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
